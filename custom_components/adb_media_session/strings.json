@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "ADB Media Session Setup",
+        "description": "Configure direct ADB connection to your Android TV device.",
+        "data": {
+          "host": "TV IP Address",
+          "port": "ADB Port (default: 5555)",
+          "name": "Display Name",
+          "scan_interval": "Polling Interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to TV over ADB TCP. Check IP and port.",
+      "authorization_required": "Confirm the authorization prompt on the TV screen, then submit again.",
+      "authentication_rejected": "ADB key authentication was rejected by the TV.",
+      "shell_unavailable": "Connected over ADB, but shell dumpsys execution failed.",
+      "unsupported_pairing_method": "This TV requires pairing-code Wireless Debugging, which is not supported."
+    },
+    "abort": {
+      "already_configured": "Device is already configured."
+    }
+  }
+}

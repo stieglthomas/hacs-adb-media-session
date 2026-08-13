@@ -1,0 +1,18 @@
+123456.78 987654.32
+Media button session is null
+Sessions Stack:
+  SessionToken {pkg=com.netflix.ninja session=1}
+    Name=Netflix media session
+    package=com.netflix.ninja
+    active=true
+    state=PlaybackState {state=2, position=107708, speed=1.0, updated=123400000}
+  SessionToken {pkg=com.google.android.youtube.tv session=2}
+    Name=YouTube TV
+    package=com.google.android.youtube.tv
+    active=true
+    state=PlaybackState {state=3, position=25000, speed=1.0, updated=123450000}
+  SessionToken {pkg=com.android.bluetooth session=3}
+    Name=Bluetooth Session
+    package=com.android.bluetooth
+    active=false
+    state=PlaybackState {state=7, position=0, speed=1.0, updated=100000000, error=Bluetooth audio disconnected}

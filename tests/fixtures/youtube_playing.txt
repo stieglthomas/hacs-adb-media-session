@@ -1,0 +1,8 @@
+500000.00 450000.00
+Media button session is com.google.android.youtube.tv
+Sessions Stack:
+  SessionToken {pkg=com.google.android.youtube.tv session=2}
+    Name=YouTube TV
+    package=com.google.android.youtube.tv
+    active=true
+    state=PlaybackState {state=3, position=45000, speed=1.0, updated=499995000}

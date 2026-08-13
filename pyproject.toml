@@ -1,0 +1,18 @@
+[project]
+name = "hacs-adb-media-session"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "adb-shell[async]==0.4.4",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.black]
+include = 'custom_components/adb_media_session/.*\.py'
+
+

@@ -1,0 +1,15 @@
+{
+  "domain": "adb_media_session",
+  "name": "ADB Media Session",
+  "codeowners": [
+    "@stieglthomas"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/stieglthomas/hacs-adb-media-session",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/stieglthomas/hacs-adb-media-session/issues",
+  "requirements": [
+    "adb-shell[async]==0.4.4"
+  ],
+  "version": "0.1.0"
+}

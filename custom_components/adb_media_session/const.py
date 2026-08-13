@@ -1,0 +1,20 @@
+"""Constants for the ADB Media Session integration."""
+
+DOMAIN = "adb_media_session"
+STORAGE_KEY = "adb_media_session"
+STORAGE_VERSION = 1
+
+CONF_HOST = "host"
+CONF_PORT = "port"
+CONF_NAME = "name"
+CONF_SCAN_INTERVAL = "scan_interval"
+
+DEFAULT_PORT = 5555
+DEFAULT_NAME = "Android TV"
+DEFAULT_SCAN_INTERVAL = 5
+MIN_SCAN_INTERVAL = 2
+MAX_SCAN_INTERVAL = 60
+
+COMMAND_TIMEOUT = 8
+MAX_CONSECUTIVE_FAILURES = 3
+MAX_RECONNECT_DELAY = 60
